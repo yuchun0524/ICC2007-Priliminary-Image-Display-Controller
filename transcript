@@ -1,0 +1,45 @@
+# Load canceled
+# Compile of lcd_ctrl.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.test
+# vsim -gui -novopt work.test 
+# Refreshing C:/ic_contest/2007/work.test
+# Loading work.test
+# Refreshing C:/ic_contest/2007/work.lcd_ctrl
+# Loading work.lcd_ctrl
+add wave  \
+sim:/test/top/reflash \
+sim:/test/top/load \
+sim:/test/top/right \
+sim:/test/top/left \
+sim:/test/top/up \
+sim:/test/top/down \
+sim:/test/top/clk \
+sim:/test/top/reset \
+sim:/test/top/datain \
+sim:/test/top/cmd \
+sim:/test/top/cmd_valid \
+sim:/test/top/dataout \
+sim:/test/top/output_valid \
+sim:/test/top/busy \
+sim:/test/top/buffer \
+sim:/test/top/count \
+sim:/test/top/out_count \
+sim:/test/top/origin \
+sim:/test/top/valid \
+sim:/test/top/i
+restart
+run -all
+# ---------------------------------------------
+# 
+# All data have been generated successfully!
+# 
+# -------------------PASS-------------------
+# 
+# ---------------------------------------------
+# 
+# ** Note: $finish    : C:/ic_contest/2007/file/testfixture.v(131)
+#    Time: 45200 ns  Iteration: 2  Instance: /test
+# 1
+# Break in Module test at C:/ic_contest/2007/file/testfixture.v line 131
